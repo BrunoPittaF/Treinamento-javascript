@@ -1,0 +1,22 @@
+Day 1 - 
+    É possivel utilizar variáveis de outros arquivos JS, mas é necessário ficar 
+    atento a ordem do script no html.
+
+Day 2 - 
+    Math é uma biblioteca com inúmeras funções úteis, entre elas cabe citar o Math.random() que 
+    gera números aleatórios no intervalo de 0 a 1 (podendo ser configuravel)
+    Além do Math.round() que arredonda o número pro inteiro mais próximo.
+    
+Day 3 -
+    prompt é um alert melhorado, pois há uma caixa com input e botao de ok/cancel, e recebe até 2 argumentos:
+        1º label
+        2º placeholder
+    prompt retorna uma string, então caso vc precisa de um número ou outro tipo, é preciso converter o resultado.
+    confirm é um alert com botao de sim ou não, retornando um boolean. Aceita 1 argumento que é o label.
+    trabalhar com data é chato
+
+Day 4 -
+    Ternário
+    Condição ? Verdadeiro : Falso
+
+    
