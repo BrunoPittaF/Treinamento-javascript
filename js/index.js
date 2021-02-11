@@ -37,25 +37,21 @@ if(yourAge < myAge){
 
 /* Questão 5 */
 
-let note = prompt('digite sua nota');
-note = parseInt(note);
-switch (note) {
-    case note >= 0 && note <= 49:
-        console.log('nota F');
-        break;
-    case note >= 50 && note <= 59:
-        console.log('nota D');
-        break;
-    case note >= 60 && note <= 69:
-        console.log('nota C');
-        break;
-    case note >= 70 && note <= 89:
-        console.log('nota B');
-        break;     
-    case note >= 80 && note <= 100:
-        console.log('nota A');
-        break;   
-    default:
-        console.log('nota inválida');
-}
+let note = prompt('digite sua nota')
+note = parseInt(note)
 
+if(note >= 0 && note <= 49){
+    console.log('nota F');
+}
+if(note >= 50 && note <= 59){
+    console.log('nota D');
+}
+if(note >= 60 && note <= 69){
+    console.log('nota C');
+}
+if(note >= 70 && note <= 89){
+    console.log('nota B');
+}
+if(note >= 80 && note <= 100){
+    console.log('nota A');
+}
