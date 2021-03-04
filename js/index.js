@@ -55,3 +55,4 @@ if(note >= 70 && note <= 89){
 if(note >= 80 && note <= 100){
     console.log('nota A');
 }
+

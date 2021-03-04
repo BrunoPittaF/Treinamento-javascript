@@ -19,4 +19,13 @@ Day 4 -
     Ternário
     Condição ? Verdadeiro : Falso
 
+Day 5
+    Array.(quantidade).fill(element)
+        -Quantidade é o numero de "element" que serão inseridos de uma vez no Array
+    [array1].concat(array2)
+        -Concatena os arrays
+    Se vc tem um array de tamanho 4 e adiciona um item no index 100, ele vai deixar os espaços vazios até ter esse tamanho.
+    
+
+
     
